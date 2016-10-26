@@ -1,11 +1,11 @@
 (function() {
   var app = angular.module('absenceList', []);
-  
+
 // the controller with $scope notation
   app.controller('StudentController', function($scope) {
     $scope.studentList = students;
 
-    //console.log("hello "+students[0].name);
+    //console.log("hello "+students[0].name+ "Absence "+students[0].absence );
   });
 
 // the model

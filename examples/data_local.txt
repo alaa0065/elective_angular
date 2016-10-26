@@ -1,0 +1,25 @@
+[
+   {
+      "Name" : "Lasse",
+      "RollNo" : 101,
+      "Percentage" : "80%"
+   },
+
+   {
+      "Name" : "Nirujan",
+      "RollNo" : 201,
+      "Percentage" : "70%"
+   },
+
+   {
+      "Name" : "Emil",
+      "RollNo" : 191,
+      "Percentage" : "75%"
+   },
+
+   {
+      "Name" : "Morten Hansen",
+      "RollNo" : 111,
+      "Percentage" : "77%"
+   }
+]

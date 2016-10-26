@@ -1,0 +1,64 @@
+<html>
+   <head>
+      <title>Angular JS Includes</title>
+
+      <style>
+         table, th , td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+         }
+
+         table tr:nth-child(odd) {
+            background-color: #f2f2f2;
+         }
+
+         table tr:nth-child(even) {
+            background-color: #ffffff;
+         }
+      </style>
+
+   </head>
+   <body>
+      <h2>AngularJS Sample Application</h2>
+      <div ng-app = "getData" ng-controller = "dataController">
+
+         <table>
+            <tr>
+               <th>Name</th>
+               <th>Roll No</th>
+               <th>Percentage</th>
+            </tr>
+
+            <tr ng-repeat = "x in dataset">
+               <td>{{ x.Name }}</td>
+               <td>{{ x.RollNo }}</td>
+               <td>{{ x.Percentage }}</td>
+            </tr>
+         </table>
+      </div>
+
+      <script>
+      (function() {
+         var app = angular.module('getData', []);
+
+         app.controller('dataController', function($http){
+
+           var url = "http://opendata.odense.dk/dataset/ed746385-370f-487b-bcb5-2f13358e774e/resource/be45de6e-927b-4d01-84b3-2ba0ff350c9e/download/legepladsergroenneomraader.json";
+
+           $http.get(url).success( function(response) {
+              this.dataset = response;
+           });
+         });
+
+
+
+
+
+   })();
+      </script>
+
+      <script data-require="angular.js@1.2.x" src="http://code.angularjs.org/1.2.15/angular.js" data-semver="1.2.15"></script>
+
+   </body>
+</html>
