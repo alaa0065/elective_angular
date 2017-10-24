@@ -1,0 +1,30 @@
+<!doctype html >
+<html>
+<head>
+<title>jquery example</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript">
+  $(function(){
+    var name = $('#name');
+    var greeting = $('#greeting');
+
+    name.keyup(function(){
+
+       greeting.text('Hello '+ name.val() + '!');
+       
+       console.log("Hello "+ name.val());
+       if (name.val() == "Bjarne") { alert(" Hello Bjarne")}
+    });
+
+  });
+
+</script>
+
+</head>
+<body>
+  <p>Write something in the field</p>
+  <input id="name" type="text">
+  <h2 id="greeting"></h2>
+
+</body>
+</html>

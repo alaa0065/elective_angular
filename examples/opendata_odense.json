@@ -1,0 +1,179 @@
+{
+type: "FeatureCollection",
+features: [
+{
+type: "Feature",
+geometry: {
+type: "Point",
+coordinates: [
+10.385178,
+55.400809
+]
+},
+geometry_name: "wkb_geometry",
+properties: {
+placering: "BanegÃ¥rden",
+antal_cykler: "21",
+lat: "55.400809",
+lon: "10.385178",
+id: "1"
+}
+},
+{
+type: "Feature",
+geometry: {
+type: "Point",
+coordinates: [
+10.380314,
+55.395293
+]
+},
+geometry_name: "wkb_geometry",
+properties: {
+placering: "Brandts KlÃ¦defabrik",
+antal_cykler: "12",
+lat: "55.395293",
+lon: "10.380314",
+id: "2"
+}
+},
+{
+type: "Feature",
+geometry: {
+type: "Point",
+coordinates: [
+10.385628,
+55.366409
+]
+},
+geometry_name: "wkb_geometry",
+properties: {
+placering: "Den Fynske Landsby",
+antal_cykler: "12",
+lat: "55.366409",
+lon: "10.385628",
+id: "3"
+}
+},
+{
+type: "Feature",
+geometry: {
+type: "Point",
+coordinates: [
+10.389213,
+55.397559
+]
+},
+geometry_name: "wkb_geometry",
+properties: {
+placering: "NÃ¸rregade v/Fisketorvet",
+antal_cykler: "12",
+lat: "55.397559",
+lon: "10.389213",
+id: "4"
+}
+},
+{
+type: "Feature",
+geometry: {
+type: "Point",
+coordinates: [
+10.3871,
+55.395038
+]
+},
+geometry_name: "wkb_geometry",
+properties: {
+placering: "Klingenberg",
+antal_cykler: "20",
+lat: "55.395038",
+lon: "10.3871",
+id: "5"
+}
+},
+{
+type: "Feature",
+geometry: {
+type: "Point",
+coordinates: [
+10.384902,
+55.397481
+]
+},
+geometry_name: "wkb_geometry",
+properties: {
+placering: "Slotsgade/Jernbanegade",
+antal_cykler: "9",
+lat: "55.397481",
+lon: "10.384902",
+id: "6"
+}
+},
+{
+type: "Feature",
+geometry: {
+type: "Point",
+coordinates: [
+10.380987,
+55.392463
+]
+},
+geometry_name: "wkb_geometry",
+properties: {
+placering: "Filosofgangen v/Ã…farten",
+antal_cykler: "12",
+lat: "55.392463",
+lon: "10.380987",
+id: "7"
+}
+},
+{
+type: "Feature",
+geometry: {
+type: "Point",
+coordinates: [
+10.388969,
+55.396435
+]
+},
+geometry_name: "wkb_geometry",
+properties: {
+placering: "V/ turistbureauet",
+antal_cykler: "10",
+lat: "55.396435",
+lon: "10.388969",
+id: "8"
+}
+},
+{
+type: "Feature",
+geometry: {
+type: "Point",
+coordinates: [
+10.370595,
+55.378204
+]
+},
+geometry_name: "wkb_geometry",
+properties: {
+placering: "Zoologisk Have",
+antal_cykler: "12",
+lat: "55.378204",
+lon: "10.370595",
+id: "9"
+}
+}
+],
+crs: {
+type: "EPSG",
+properties: {
+code: "4326"
+}
+},
+bbox: [
+10.370595,
+55.366409,
+10.389213,
+55.400809
+]
+}

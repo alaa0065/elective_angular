@@ -44,10 +44,18 @@
 
          app.controller('studentController', function($http){
 
-           var url = "http://uxpartner.dk/projekt/angularjs_onserver/data.txt";
+           var url = "data.txt";
 
-           $http.get(url).success( function(response) {
-              this.students = response.data;
+           $http.get(url).success( function(response)
+
+              .then(function(response) {
+                   //First function handles success
+                   this.students = response.data;
+                   console.log("test "+response.data);
+               }, function(response) {
+                   //Second function handles error
+                   this.students = "Something went wrong";
+               });
            });
          });
 

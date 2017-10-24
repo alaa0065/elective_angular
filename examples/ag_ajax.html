@@ -41,7 +41,7 @@
       <script>
       // Here we are using the $scope notation
          function studentController($scope,$http) {
-            var url = "data.txt";
+            var url = "data.txt"; //place on a webserver 
 
             $http.get(url).success( function(response) {
                $scope.students = response;
