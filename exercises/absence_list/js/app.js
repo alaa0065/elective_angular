@@ -3,15 +3,18 @@
 
 // the controller with $scope notation
   app.controller('StudentController', function($scope) {
-    $scope.studentList = students;
+    $scope.studentList= students;
+        console.log("inside controlelr "+ $scope.studentList);
 
     //console.log("hello "+students[0].name+ "Absence "+students[0].absence );
   });
 
-// the model
-  var students = [
-    { name: 'Kim', absence: false },
-    { name: 'Bjarne', absence: true },
-    { name: 'Simon', absence: false },
-  ];
+  // the model
+    var students = [
+      { name: 'Kim', absence: false },
+      { name: 'Bjarne', absence: true },
+      { name: 'Simon', absence: false },
+    ];
+    console.log(students);
+
 })();
