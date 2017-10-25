@@ -9,13 +9,13 @@
   <script type="text/javascript" src="js/app_this.js"></script>
 </head>
 
-<body class="container" ng-controller="StudentController">
+<body class="container" ng-controller="StudentController as studentCtrl">
   <table class="table table-bordered">
     <tr>
       <th>Name</th>
       <th>Absence</th>
     </tr>
-    <tr class="product" ng-repeat="student in studentList">
+    <tr class="product" ng-repeat="student in studentCtrl.studentList">
       <td>{{student.name}} </td>
       <td>{{student.absence}}</td>
     </tr>
